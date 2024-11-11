@@ -1,0 +1,14 @@
+Step 1:
+download the dataset
+
+Step 2:
+Use roboflow to use a Grounding DINO model to auto label the data for you
+https://app.roboflow.com/
+
+step 3:
+review the auto annotated images and create a dataset
+
+step 4
+create a version to download the files along with some preprocessing steps
+
+
