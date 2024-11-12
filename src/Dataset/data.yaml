@@ -1,6 +1,6 @@
-train: /home/minato/peer_ws/src/Dataset/train/images
-val: /home/minato/peer_ws/src/Dataset/valid/images
-test: /home/minato/peer_ws/src/Dataset/test/images
+train: /content/Pallets-detection/src/Dataset/train/images
+val: /content/Pallets-detection/src/Dataset/valid/images
+test: /content/Pallets-detection/src/Dataset/test/images
 
 nc: 2
 names: ['ground', 'pallet']
