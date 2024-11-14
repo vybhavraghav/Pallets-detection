@@ -114,8 +114,18 @@ source install/setup.bash
 ### Step 4: Launch the System  
 Run the desired input node and detection node:  
 ```bash
-ros2 run pallet_detection <node_name>
+ros2 run pallet_detection detection
 ```
+
+In another terminal:
+```bash
+ros2 run pallet_detection video
+(or)
+ros2 run pallet_detection video
+(or)
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py 
+```
+
 
 ---
 
