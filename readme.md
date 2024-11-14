@@ -98,8 +98,8 @@ Since local hardware lacks sufficient GPU resources, training is performed on Go
 
 ### Step 1: Clone the Repository  
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/vybhavraghav/Pallets-detection.git
+cd Pallets-detection
 ```
 
 ### Step 2: Prepare the Dataset and Model  
