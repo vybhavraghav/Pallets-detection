@@ -1,0 +1,5 @@
+[console_scripts]
+camera = pallets_detection.camera_node:main
+detection = pallets_detection.detection:main
+video = pallets_detection.video:main
+

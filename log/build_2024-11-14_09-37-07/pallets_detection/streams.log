@@ -1,0 +1,30 @@
+[0.659s] Invoking command in '/home/minato/peer_ws/src/pallets_detection': PYTHONPATH=/home/minato/peer_ws/build/pallets_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(peer) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallets_detection build --build-base /home/minato/peer_ws/build/pallets_detection/build install --record /home/minato/peer_ws/build/pallets_detection/install.log --single-version-externally-managed install_data
+[0.889s] running egg_info
+[0.889s] creating ../../build/pallets_detection/pallets_detection.egg-info
+[0.890s] writing manifest file '../../build/pallets_detection/pallets_detection.egg-info/SOURCES.txt'
+[0.893s] writing manifest file '../../build/pallets_detection/pallets_detection.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.893s] running build_py
+[0.893s] creating /home/minato/peer_ws/build/pallets_detection/build
+[0.893s] creating /home/minato/peer_ws/build/pallets_detection/build/lib
+[0.893s] creating /home/minato/peer_ws/build/pallets_detection/build/lib/pallets_detection
+[0.893s] copying pallets_detection/detection.py -> /home/minato/peer_ws/build/pallets_detection/build/lib/pallets_detection
+[0.893s] copying pallets_detection/__init__.py -> /home/minato/peer_ws/build/pallets_detection/build/lib/pallets_detection
+[0.893s] running install
+[0.895s] running install_lib
+[0.895s] creating /home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages/pallets_detection
+[0.895s] copying /home/minato/peer_ws/build/pallets_detection/build/lib/pallets_detection/detection.py -> /home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages/pallets_detection
+[0.895s] copying /home/minato/peer_ws/build/pallets_detection/build/lib/pallets_detection/__init__.py -> /home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages/pallets_detection
+[0.896s] byte-compiling /home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages/pallets_detection/detection.py to detection.cpython-310.pyc
+[0.897s] byte-compiling /home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages/pallets_detection/__init__.py to __init__.cpython-310.pyc
+[0.897s] running install_data
+[0.897s] creating /home/minato/peer_ws/install/pallets_detection/share/ament_index
+[0.897s] creating /home/minato/peer_ws/install/pallets_detection/share/ament_index/resource_index
+[0.897s] creating /home/minato/peer_ws/install/pallets_detection/share/ament_index/resource_index/packages
+[0.897s] copying resource/pallets_detection -> /home/minato/peer_ws/install/pallets_detection/share/ament_index/resource_index/packages
+[0.897s] copying package.xml -> /home/minato/peer_ws/install/pallets_detection/share/pallets_detection
+[0.897s] running install_egg_info
+[0.899s] Copying ../../build/pallets_detection/pallets_detection.egg-info to /home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages/pallets_detection-0.0.0-py3.10.egg-info
+[0.899s] running install_scripts
+[0.918s] writing list of installed files to '/home/minato/peer_ws/build/pallets_detection/install.log'
+[0.945s] Invoked command in '/home/minato/peer_ws/src/pallets_detection' returned '0': PYTHONPATH=/home/minato/peer_ws/build/pallets_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/minato/peer_ws/install/pallets_detection/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(peer) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallets_detection build --build-base /home/minato/peer_ws/build/pallets_detection/build install --record /home/minato/peer_ws/build/pallets_detection/install.log --single-version-externally-managed install_data
