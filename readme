@@ -1,14 +1,52 @@
-Step 1:
-download the dataset
 
-Step 2:
-Use roboflow to use a Grounding DINO model to auto label the data for you
-https://app.roboflow.com/
+1. Dataset Acquisition and Preparation:
+    Step 1:
+        download the dataset
+    Step 2:
+        Use roboflow to use a Grounding DINO model to auto label the data for you
+        https://app.roboflow.com/
+    Step 3:
+        review the auto annotated images and create a dataset
+    Step 4
+        create a version to download the files along with some preprocessing steps
+    Step 5:
+        save the folder in the src folder
 
-step 3:
-review the auto annotated images and create a dataset
 
-step 4
-create a version to download the files along with some preprocessing steps
+2. Object Detection and Semantic Segmentation:
+
+    I am using google colab to train the YOLOv11n module as my gpu is not able to handle the training memory
+
+    Step 1:
+        open google colab and install the required packages:
+            -ultralytics
+            -torch
+
+        I am using yolo11n-seg model for training
+        The colab notebook has been shared to checkout how to train your model.
+        Also after training the model download all the files in the colab workspace to local folder to use the trained model. saved everything to the src folder
+
+
+3. ROS2 Node Development:
+    
+    Step 1:
+        created a ros2 package : pallet_detection with required dependencies. I am using ament_python build type for this package
+    Step 2:
+        write nodes to get camera data and I have also wrote a node to get Image data from a video just for testing purposes as I am not in a warehouse. these both are publisher nodes that publish Image data in the topic /camera/image_raw
+
+        If you want you can directly run a gazebo simulation with turtlebot3 waffle as get the camera data instead from there. This also publishes on the same topic.
+
+        Here I added a video in the pallet_detection folder for test the model on the video.
+    Step 3:
+        write the node for the image segmentation model
+        make sure all the file paths are correct here if not the model won't work
+
+        This is a subscriber node that subscribes to the video input topic: /came/image_raw
+    Step 4:
+        changes the setup.py file to update all the nodes that were made
+    Step 5:
+        colcon build the files and source your ws
+    Step 6:
+         run the detection node along with anyone of the video input nodes, i.e, camera, video, or launching turtlebot3
 
 
