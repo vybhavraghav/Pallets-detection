@@ -53,6 +53,13 @@ Since local hardware lacks sufficient GPU resources, training is performed on Go
 
 ---
 
+### Sample Test Outputs
+
+![Test image 1](src/runs/segment/train2/832000-4745_jpg.rf.d894ed3cece0202029e41d6e3c0fe8a8.jpg)
+
+![Test image 2](src/runs/segment/train2/1579163714854-77_jpg.rf.9d207bcd1ffc5a56c86b75c3c40ae7d8.jpg)
+---
+
 ## **3. ROS2 Node Development**
 
 ### Step 1: Create a ROS2 Package  
@@ -102,9 +109,11 @@ git clone https://github.com/vybhavraghav/Pallets-detection.git
 cd Pallets-detection
 ```
 
-### Step 2: Prepare the Dataset and Model  
-- Place the prepared dataset and trained model files in the `src` folder.
+### Step 2: install requirements
 
+```bash
+pip install -r requirements.txt
+```
 ### Step 3: Build and Source  
 ```bash
 colcon build
