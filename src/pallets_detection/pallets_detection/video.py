@@ -10,7 +10,7 @@ class VideoPub(Node):
     def __init__(self):
         super().__init__('video')
 
-        topic_name = '/camera/image_raw'
+        topic_name = '/robot1/zed2i/left/image_rect_color'
         pwd = os.path.dirname(os.path.abspath(__file__))
         
         print(pwd)

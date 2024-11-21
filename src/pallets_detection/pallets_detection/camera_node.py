@@ -10,7 +10,7 @@ class VideoPub(Node):
     def __init__(self):
         super().__init__('camera')
 
-        topic_name = '/camera/image_raw'
+        topic_name = '/robot1/zed2i/left/image_rect_color'
         self.cap = cv2.VideoCapture(0)
         self.br = CvBridge()
         self.vid_pub = self.create_publisher(Image, topic_name, 10)

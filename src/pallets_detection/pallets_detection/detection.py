@@ -16,7 +16,7 @@ class PalletDetection(Node):
     def __init__(self):
         super().__init__('detection')
 
-        topic_name= '/camera/image_raw'
+        topic_name= '/robot1/zed2i/left/image_rect_color'
 
         self.publisher_ = self.create_publisher(Image, 'segmented_image' , 10)
 
